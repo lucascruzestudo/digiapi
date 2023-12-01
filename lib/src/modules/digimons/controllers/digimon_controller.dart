@@ -1,5 +1,5 @@
-import 'package:digiapi/src/modules/home/services/digimon_service.dart';
-import 'package:digiapi/src/modules/home/states/digimon_state.dart';
+import 'package:digiapi/src/modules/digimons/services/digimon_service.dart';
+import 'package:digiapi/src/modules/digimons/states/digimon_state.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/models/digimon.dart';

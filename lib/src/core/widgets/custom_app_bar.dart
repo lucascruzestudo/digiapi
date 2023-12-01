@@ -18,11 +18,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: AppColors.primaryColor,
-      centerTitle: isLogo,
       title: Text(
-              title,
-              style: AppTextStyles.title,
-            ),
+        title,
+        style: AppTextStyles.title.copyWith(color: Colors.white),
+      ),
       leading: showBackButton
           ? IconButton(
               onPressed: () => Navigator.of(context).pop(),

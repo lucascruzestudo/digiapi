@@ -35,7 +35,7 @@ class DigimonService {
     } catch (error) {
       // Handle errors appropriately, e.g., logging or rethrowing
       print('Error fetching digimon details: $error');
-      throw error;
+      rethrow;
     }
   }
 }

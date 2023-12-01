@@ -17,7 +17,7 @@ class BodyTemplate extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: CustomAppBar(
-          title: 'Digimon APP',
+          title: title,
           isLogo: isMainPage,
         ),
         body: Padding(

@@ -1,4 +1,4 @@
-import 'package:digiapi/src/modules/home/pages/home_page.dart';
+import 'package:digiapi/src/modules/digimons/pages/digimons_page.dart';
 import 'package:flutter/material.dart';
 
 class AppRoutes {
